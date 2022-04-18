@@ -1,0 +1,16 @@
+body {
+    background-image: url(./Imgs/thumb-1920-421825.jpg);
+    background-size: 100%;
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.logo {
+    width: 500px;
+    height: 300px;
+    
+}
+
