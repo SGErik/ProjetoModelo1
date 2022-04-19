@@ -1,3 +1,3 @@
 function startGame(){
-    return prompt.('Oque Foi?')
+    location.assign("./escolhaPersonagem/choiceChar.html");
 }
