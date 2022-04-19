@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'CafeMatcha';
+    src: url(./fonts/Cafe\ Matcha.ttf);
+}
+
 body {
     background-image: url(./Imgs/thumb-1920-421825.jpg);
     background-size: 100%;
@@ -9,8 +14,60 @@ header {
     height: 300px;
 }
 .logo {
-    width: 500px;
-    height: 300px;
-    
+    width: 33%;
+    height: 260px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+h2 {
+    color: rgb(255, 0, 0);
+    font-family: 'CafeMatcha';
+    font-size: 40px;
+}
+
+p {
+    font-family: 'CafeMatcha';
+    color: black;
+    font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(212, 212, 212);
+    font-family: 'CafeMatcha';
+    padding: 25px;
+    background-color: ;
+    border-radius: 40px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+
+    
+
+
+}
