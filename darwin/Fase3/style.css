@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
 @font-face {
     font-family: 'Hujan', sans-serif;
     src: url(../../fonts/Hujan.ttf);
@@ -6,13 +14,13 @@
     font-family: 'Candy';
     src: url(../../fonts/MilkyNice.otf);
 }
-ul{
-    list-style-type: none;
-}
-body {
-    background-image: url(../../Imgs/Background\ \(4\).png);
+
+
+body{
+    background-image: url(../../Imgs/wp3862839-gumball-and-darwin-wallpapers.png);
     background-size: 100%;
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -32,10 +40,9 @@ body {
     padding: 20px;
     border-radius: 40px;
 }
-
 h1 {
     font-size: 40px;
-    color: rgb(43, 111, 214);
+    color: rgb(255, 166, 0);
     font-family: 'Hujan';
     -webkit-text-stroke: 0.1px black;
 }
@@ -49,6 +56,7 @@ li {
 }
 button{
     cursor: pointer;
+    margin-top: 15px;
     background-color: rgb(240, 240, 240, 0.500);
     color: rgb(0, 0, 0);
     font-family: 'Candy';
