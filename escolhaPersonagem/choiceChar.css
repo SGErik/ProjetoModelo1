@@ -68,3 +68,7 @@ body{
     font-family: 'CafeMatcha';
     font-size: 30px;
 }
+.perso:hover{
+    background-color: black;
+    color: white;
+}
