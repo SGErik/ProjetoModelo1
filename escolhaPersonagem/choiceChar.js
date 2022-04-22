@@ -1,3 +1,0 @@
-function gumChoice(){
-    location.assign
-}
